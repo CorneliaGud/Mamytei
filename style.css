@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 40%;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.foto img {
+    width: 80%;
+    height: 500px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-image: url(flowers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+div p {
+    color: burlywood;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-image: url(hart.png);
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: darkslategrey;
+    padding: 5px;
+}
+footer p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 45px;
+}
+pre {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    line-height: 25px;
+    color: ghostwhite;
+}
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display', serif;
+*/
+h1,
+h2 {
+    font-family: font-family: 'New Tegomin', serif;
+    color: papayawhip;
+}
